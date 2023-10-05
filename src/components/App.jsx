@@ -29,7 +29,7 @@ export const App = () => {
         <span className={css.total_count}> {count}</span>
       </p>
       <Filter />
-      {contacts.length ?<ContactList />: <p>There is no contacts</p>}
+      <ContactList />
       <Toaster position="top-right" />
     </div>
   );
